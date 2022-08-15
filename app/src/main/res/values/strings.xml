@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Week4</string>
+    <string-array name="animal">
+        <item name="lion">LION</item>
+        <item name="tiger">TIGER</item>
+        <item name="fish">FISH</item>
+        <item name="dog">DOG</item>
+        <item name="cat">CAT</item>
+    </string-array>
 </resources>
