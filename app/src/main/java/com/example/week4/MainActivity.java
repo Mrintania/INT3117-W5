@@ -93,17 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 ///SendSeek
                 goto_page2.putExtra("seek",txt_seek.getText());
 
-
-
-
                 ///Spinner
-
                 goto_page2.putExtra("spinner",spinner.getSelectedItem().toString());
-
-
-
-
-
 
                 startActivity(goto_page2);
 

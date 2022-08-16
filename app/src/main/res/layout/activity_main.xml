@@ -16,7 +16,9 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="" />
+        android:hint="Name Lastname"
+        android:autofillHints="Pornsupat Vutisuwan"
+        android:textAlignment="center"/>
 
     <RatingBar
         android:id="@+id/rtb"
@@ -29,7 +31,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Switch" />
+        android:text="Switch :"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -38,9 +41,10 @@
         android:orientation="horizontal">
 
         <RadioGroup
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
 
             <RadioButton
                 android:id="@+id/rad_male"
@@ -52,7 +56,7 @@
                 android:id="@+id/rad_female"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Female" />
+                android:text="@string/female" />
         </RadioGroup>
     </LinearLayout>
 
@@ -77,14 +81,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Test"
-        android:textAlignment="center"/>
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/but_ent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Enter" />
+        android:layout_weight="0"
+        android:text="@string/enter"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

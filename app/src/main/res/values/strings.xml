@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Week4</string>
+    <string name="enter">Enter</string>
+    <string name="name_lastname">Name Lastname</string>
+    <string name="female">Female</string>
     <string-array name="animal">
         <item name="lion">LION</item>
         <item name="tiger">TIGER</item>
