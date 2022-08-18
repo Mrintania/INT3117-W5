@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class MainActivity2 extends AppCompatActivity {
 
     TextView txt_name,txt_rtb,txt_sw,txt_rad,txt_animal,txt_seek;
-    Button but_back;
+    Button but_back,but_next;
 
 
     @Override
@@ -26,6 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
         but_back = findViewById(R.id.but_back);
         txt_animal = findViewById(R.id.txt_animal);
         txt_seek = findViewById(R.id.txt_seek);
+        but_next = findViewById(R.id.but_next);
 
 
 
@@ -49,6 +50,15 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(goto_page1);
             }
         });
+
+        but_next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goto_page3 = new Intent(MainActivity2.this,MainActivity.class);
+                startActivity(goto_page3);
+            }
+        });
+
 
 
 
